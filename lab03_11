@@ -1,0 +1,30 @@
+package code3;
+
+import java.util.Scanner;
+
+public class lab03_11 {
+
+	public static void main(String[] args) {
+		Scanner s= new Scanner(System.in);
+		int num1,num2,num;
+		
+		System.out.println("숫자1=>: ");
+		num1=s.nextInt();
+		System.out.println("숫자2=>: ");
+		num2=s.nextInt();
+		
+		num=num1+num2;
+		System.out.println(num1+"+"+num2+"="+num);
+		num=num1*num2;
+		System.out.println(num1+"*"+num2+"="+num);
+		num=num1/num2;
+		System.out.println(num1+"/"+num2+"="+num);
+		num=num1%num2;
+		System.out.println(num1+"%"+num2+"="+num);
+		
+		s.close();
+
+
+	}
+
+}
